@@ -33,9 +33,20 @@ ul{
     list-style:none;}
 
 
+#container{
+    background-color: rgb(177, 243, 191);
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+}
+
 p{
-    font: size 15px;/* pourquoi la taille et le font size ne changent pas alors que l'aligneme,t oui ?*/
+    background-color: rgb(191, 177, 243);
+}
+
+.intro{
+    margin-top: 0px;/* pourquoi 0px est différent de rien ???*/
+    font: size 16px;/* pourquoi la taille et le font size ne changent pas alors que l'alignement oui ?*/
     text-align: left;
     max-width: 400px;
-    background-color: rgb(191, 177, 243);
     padding: 60px;}
